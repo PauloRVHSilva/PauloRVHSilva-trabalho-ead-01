@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset= 'utf-8'>
+    <title> Construindo Pagina </title>
+	</head>
+  
+	<body>
+    <h2>Cadastro</h2>
+    
+    <form action='saida.php' method='POST'>
+        <p>
+          Nome da banda: <br>
+          <input type='text' name='nomeBanda' size='40'>
+        </p>
+        <p>
+          Link para imagem: <br>
+          <input type='url' name='linkImagem' size='40'>
+        </p>
+        <p>
+          Integrante 1 - Nome: <br>
+          <input type='text' name='int1_nome' size='40'>
+        </p>
+        <p>
+          Integrante 1 - Data de Nascrimento: <br>
+          <input type='text' name='int1_data' size='40'>
+        </p>
+        <p>
+          Integrante 1 - Instrumento: <br>
+          <input type='text' name='int1_intr' size='40'>
+        </p>
+        <p>
+          Integrante 2 - Nome: <br>
+          <input type='text' name='int2_nome' size='40'>
+        </p>
+        <p>
+          Integrante 2 - Data de Nascrimento: <br>
+          <input type='text' name='int2_data' size='40'>
+        </p>
+        <p>
+          Integrante 2 - Instrumento: <br>
+          <input type='text' name='int2_intr' size='40'>
+        </p>
+        
+        <p>
+          Integrante 3 - Nome: <br>
+          <input type='text' name='int3_nome' size='40'>
+        </p>
+        <p>
+          Integrante 3 - Data de Nascrimento: <br>
+          <input type='text' name='int3_data' size='40'>
+        </p>
+        <p>
+          Integrante 3 - Instrumento: <br>
+          <input type='text' name='int3_intr' size='40'>
+        </p>
+        
+        <p>
+            Biografia da Banda: <br>
+            <textarea cols='80' rows='20' name='biografia'>Cole aqui a biografia da banda</textarea>
+        </p>
+        <p>
+          cor de fundo da Página: <br>
+          <select name='corFundo' size='1'>
+          <option value='blue'>Azul</option>
+          <option value='yellow'>Amarelo</option>
+          <option value='white'>Branco</option>
+          <option value='black'>Preto</option>
+          <option value='green'>Verde</option>
+          <option value='red'>Vermelho</option>
+        
+          </select>
+        </p>
+        
+        <p>
+          cor do texto da Página: <br>
+          <select name='corTexto' size='1'>
+          <option value='blue'>Azul</option>
+          <option value='yellow'>Amarelo</option>
+          <option value='white'>Branco</option>
+          <option value='black'>Preto</option>
+          <option value='green'>Verde</option>
+          <option value='red'>Vermelho</option>
+        
+          </select>
+        </p>
+        
+        <input type='submit' name='Gerar página'>
+    </form>
+  </body>
+</html>
